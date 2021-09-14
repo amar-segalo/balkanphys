@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/quizjs.js"></script>
+    <link rel="stylesheet" href="/css/travelcss.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <title>Balkan Physiology Competition</title>
+</head>
+<body>
+
+    <div id="main-div">
+
+
+
+        <div id="nav-div">
+            <!-- logo container -->
+            <div id="logo-container">
+                <!-- logo slika -->
+                <div id="logo-slika-con">
+                  <a href="index.html"><img id="small-logo" src="img/small-dark-blue-logo-again.png" alt=""></a> 
+                </div>
+                <div id="socials-div">
+                  <a href="https://www.facebook.com/balkanphysiologycompetition"> <img class="socials-img" src="img/facebook.png" alt=""></a>  
+                  <a href="https://www.instagram.com/balkanphysiologycompetition/"> <img class="socials-img" src="img/instagram.png" alt=""></a> 
+                  <a href="/cdn-cgi/l/email-protection#b292dbdcd4ddf2d0d3ded9d3dcc2dacbc19cd1dddf"> <img id="email" class="socials-img" src="img/email.png" alt=""></a> 
+                </div>
+                <div onclick="func()" id="icon">
+                  <div style="background-color: #00004a;" class="line"></div>
+                  <div style="background-color:  #00004a;" class="line"></div>
+                  <div  style="background-color:  #00004a;" class="line"></div>
+              </div>
+            </div>
+        
+        <div id="navbar-container">
+            <ul>
+                <li><a href="index.html"> Home</a></li>
+                <li><a href="quiz.html"> Quiz </a></li>
+                <li><a href="social.html">Social </a> </li>
+                <li><a href="people.html">People </a></li>
+                <li><a href="#">Travel</a></li>
+                <li><a href="contact.html"> Contact</a></li>
+                <li> <a href="registration.html">Registration </a> </li>
+               
+            </ul>
+        </div>
+            <div id="navbar-container2">
+            <!-- navbar container -->
+            <div class="dropdown">
+                <a href="index.html" style="text-decoration: none;"><button style="font-weight: lighter;  font-family: 'Open Sans', sans-serif;" class="dropbtn">Home</button></a>
+               
+              </div>
+        
+            <div class="dropdown">
+                <a href="quiz.html" style="text-decoration: none;"><button class="dropbtn" style="font-weight: lighter;">Quiz</button></a>
+                <div class="dropdown-content">
+                  <a href="quiz.html#quiz-div">Quiz and Eligibility</a> 
+                  <a href="quiz.html#agenda-name">Agenda</a>
+                  <a href="quiz.html#quiz-name">Quiz format </a>
+                  <a href="quiz.html#study-resources-div">Study resources </a>
+                </div>
+              </div>
+        
+              
+            <div class="dropdown">
+                <a href="social.html" style="text-decoration: none;"><button class="dropbtn" style="font-weight: lighter;">Social</button></a>
+                <div class="dropdown-content">
+                  <a href="social.html#kaf">Kafane </a>
+                  <a href="social.html#tmb">Teambuilding </a>
+                </div>
+              </div>
+        
+              <div class="dropdown">
+                <a href="people.html" style="text-decoration: none;"><button style="font-weight: lighter;" class="dropbtn">People</button></a>
+               
+              </div>
+           
+            <div class="dropdown">
+                <button id="current" style="font-weight: bolder;" class="dropbtn">Travel</button>
+                <div class="dropdown-content">
+                  <a href="#text">Accommodations and venue </a>
+                  <a href="#trans">Transportation and visa information </a>
+                </div>
+              </div>
+        
+              
+        
+              <div class="dropdown">
+                <a href="contact.html" style="text-decoration: none;"><button style="font-weight: lighter;" class="dropbtn">Contact</button></a>
+               
+              </div>
+              <div class="dropdown">
+                <a  href="registration.html"  style="text-decoration: none;" ><button style="font-weight: lighter; " id="reg" class="dropbtn"> Registration</button></a>
+                <div class="dropdown-content">
+                  <a href="registration.html#fees">Fees</a> 
+                  <a href="registration.html#payment">Payment</a>
+                  <a href="registration.html#registration">Register</a>
+                
+                </div>
+              </div>
+        </div>
+        
+    </div>
+
+    <div id="contact-banner">
+      <img id="banner-img" src="/img/travel-tab2.png" alt="">
+  </div>
+
+  
+<div id="venue-info">
+
+    
+    <div id=venue-map>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1438.2722608882689!2d18.41313958667748!3d43.865268479781214!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8d5c93f4d5d%3A0x9f74e23f297fc6cc!2sMedicinski%20fakultet%20u%20Sarajevu!5e0!3m2!1shr!2sba!4v1601226009058!5m2!1shr!2sba" width="100%" height="370" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+    <div id="venue-main-info">
+      <p>BPC will take place at the Medical Faculty at the University of Sarajevo, a 10-minute walk from the center of the city. The quiz events will be held in an auditorium located in the main building near the main entrance. 
+
+      </p>  
+   </div>
+
+</div>
+
+
+<div id="hotels-big-pic">
+
+  <div class="parallax">
+    
+     <h2 style="font-size: 43px; font-weight: bolder;">Accommodations</h2>     
+  </div>
+
+ 
+
+</div>
+<div id="text">
+  <p>We are pleased to have partnered with two hostels in Sarajevo, <a href="http://franzferdinandhostel.com/ ">Franz Ferdinand Hostel</a> (Jelića 4)  and <a href="https://hostel-walter-sarajevo.business.site/">Hostel Walter</a> (Safvet-bega Bašagića 37), to offer student competitors accommodation during BPC. Each hostel can accommodate roughly 50 people.
+    Hostel accommodation is <strong>9 euros per person per day</strong>  and includes breakfast, coffee and tea, sheets and towels, computers to use, Wi-Fi, and locker rooms. You will have a chance to select this option when you register for the competition.
+
+  </p>
+</div>
+
+<div id="pbc-hotel-holder">
+
+<div class="pbc-hotel">
+ 
+    
+   
+    <div class="row">
+      <div id="hotel-top" class="col-lg-5">
+        <a href="http://franzferdinandhostel.com/ " target="_blank"><img class="pbc-hotel-img" src="/img/ferdinand.png" alt=""></a> 
+      </div>
+        <div  class="col-lg-5">
+          <a  href="https://hostel-walter-sarajevo.business.site/" target="_blank"><img  class="pbc-hotel-img" src="/img/walter.png" alt=""></a> 
+      </div>
+     </div>
+  
+
+</div>
+
+
+
+</div>
+
+<div id="text">
+  <p>Click below on a list of hotels located within walking distance from the Medical Faculty at the University of Sarajevo that you might be interested in. Please note that BPC does not book accommodations other than at the two hostels noted above. Please reserve your own hotels if you’d like to stay elsewhere!  
+  </p>
+</div>
+
+<div class="hotel-holder">
+
+
+   
+  <div class="row">
+    <div id="hotel-bottom" class="col-lg-3">
+      <a href="https://www.hotelcolorsinnsarajevo.com/" target="_blank"><img  class="img-responsive" src="/img/colors-inn-sarajevo.png" alt=""></a> 
+    </div>
+      <div id="hotel-bottom" class="col-lg-3">
+        <a href="https://story-hotel.com/" target="_blank"><img   class="img-responsive" src="/img/hotel-story.png" alt=""></a> 
+    </div>
+    <div id="hotel-bottom" class="col-lg-3">
+      <a href="http://cityhotel.ba/" target="_blank"> <img   class="img-responsive"  src="/img/city-boutique-hotel.png" alt=""></a> 
+  </div>
+  <div class="col-lg-3">
+    <a href="http://www.hotelcentral.ba/" target="_blank"><img   class="img-responsive"  src="/img/hotel-central.png" alt=""></a>  
+</div>
+   </div>
+
+</div>
+
+<div class="parallax2">
+    
+  <h2 style="font-size: 43px; font-weight: bolder;">Transportation / <br>  Visa information</h2>     
+</div>
+
+<div class="name">
+  <h2>Airports</h2>
+</div>
+
+<div id="trans" class="airports-holder">
+
+
+
+
+
+  <div class="row">
+
+    <div id="air" class="col-lg-4">
+
+          <img class="img-responsive" style="width: 100%;" src= "/img/sarajevo-airport_5_450x400.jpg" alt="">
+          <p style="text-align: justify; margin-top: 2%;"> <strong>Sarajevo International Airport</strong>  is located 12 kilometers from the center of Sarajevo. It serves as a connection to many European cities and to the rest of the world through major international airline hubs. See more at <a href="https://www.sarajevo-airport.ba" target="_blank">airport's website</a>. We recommend checking out <a href="https://wizzair.com/#/ " target="_blank">WizzAir</a> and <a href=" https://www.eurowings.com/us.html" target="_blank">Eurowings </a> for cheap flights!
+          </p>
+    </div>
+
+      <div id="air" class="col-lg-4">
+        <img class="img-responsive" style="width: 100%;" src= "/img/Tuzla_International_Airport_450x400.jpg" alt="">
+        <p style="text-align: justify;margin-top: 2%;"> <strong> Tuzla International Airport</strong> is located 110 kilometers from Sarajevo. It serves as a connection for several budget airlines. Recommendations: check <a href="https://wizzair.com/#/" target="_blank">WizzAir</a>  for cheap flights from Vienna, Berlin, Cologne, Dortmund, Frankfurt, Eindhoven, Gothenburg, Stockholm, Malmo to Tuzla, then hop on a 2-hour bus to Sarajevo. 
+        </p>
+    </div>
+    <div class="col-lg-4">
+      <img class="img-responsive" style="width: 100%;" src= "/img/mostar_airport_450x400.jpg" alt="">
+      <p style="text-align: justify;margin-top: 2%;"> <strong>Mostar International Airport</strong>  and <strong>Banja Luka International Airport</strong>  are good options if you would like to fly Eurowings or Ryanair and see a little more of the country.
+
+
+      </p>
+  </div>
+  
+  
+   </div>
+
+
+
+</div>
+
+
+<div class="name">
+  <h2>Bus stations</h2>
+</div>
+
+<div class="bus-station-holder">
+  <div class="bus-img-holder">
+    <img class="bus-img" src="/img/bus station.jpg" alt="">
+  </div>
+  <div class="bus-info">
+    <p> <strong>Sarajevo International Bus Station</strong>  is Sarajevo’s main bus station and is located near the city center and the main railway station. It is the starting point for most buses to domestic as well as international destinations. Recently, <a style="text-decoration: none;" href="https://global.flixbus.com/" target="_blank">Flixbus</a>  has begun operating in Sarajevo. Intercity lines operate every day to Sarajevo from Banja Luka, Bihać, Fojnica, Jajce, Međugorje, Travnik, Tuzla, Visoko, Zenica, and other cities in Bosnia and Herzegovina.
+      </p>
+  </div>
+</div>
+
+<div class="name">
+  <h2>Visa Information</h2>
+</div>
+
+<div class="viza">
+  <p> Citizens from most countries do not require a visa to travel to BiH. If you do require a visa, we will provide you with an official letter of invitation from the medical faculty. Please provide all necessary information when registering so that we can properly fill out your invitation letter.
+    <br>
+    <br>
+
+    Additional visa information can be found at the website of the <a href="http://www.mvp.gov.ba/konzularne_informacije/vize/Default.aspx" target="_blank">Ministry of Foreign Affairs</a>. 
+    </p>
+</div>
+
+
+<div id="jumper2">
+  <a href="registration.html"><button>Registration </button></a>
+</div>
+
+    </div>
+
+    <div id="footer">
+      <div id="logos-holder">
+        <img class="logo-footer" src="img/usmf-white.png" alt="">
+        <img class="logo-footer" src="img/bohemsa.png" alt="">
+      </div>
+      <div id="copy-holder">
+          <p>Copyright &copy; 2020 BPC</p>
+      </div>
+      <div id="designed-holder">
+          <p>Website designed by Amar Šegalo</p>
+      </div>
+        
+      </div>
+    
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

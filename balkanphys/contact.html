@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/css/contactcss.css">
+    <script src="/js/script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700;800&display=swap" rel="stylesheet">
+    <title>Balkan Physiology Competition</title>
+</head>
+<body>
+    <div id="main-div">
+    
+        <div id="nav-div">
+            <!-- logo container -->
+            <div id="logo-container">
+                <!-- logo slika -->
+                <div id="logo-slika-con">
+                  <a href="index.html"><img id="small-logo" src="img/small-dark-blue-logo-again.png" alt=""></a> 
+                </div>
+                <div id="socials-div">
+                  <a href="https://www.facebook.com/balkanphysiologycompetition"> <img class="socials-img" src="img/facebook.png" alt=""></a>  
+                  <a href="https://www.instagram.com/balkanphysiologycompetition/"> <img class="socials-img" src="img/instagram.png" alt=""></a> 
+                  <a href="/cdn-cgi/l/email-protection#47672e2921280725262b2c2629372f3e346924282a"> <img id="email" class="socials-img" src="img/email.png" alt=""></a> 
+                </div>
+                <div onclick="func()" id="icon">
+                    <div style="background-color: #00004a;" class="line"></div>
+                    <div style="background-color:  #00004a;" class="line"></div>
+                    <div  style="background-color:  #00004a;" class="line"></div>
+                </div>
+            </div>
+        
+        <div id="navbar-container">
+            <ul>
+                <li style="color: #00004a;"><a href="index.html"> Home</a></li>
+                <li style="color: #00004a;"><a href="quiz.html"> Quiz </a></li>
+                <li style="color: #00004a;"><a href="social.html">Social </a> </li>
+                <li style="color: #00004a;"><a href="people.html">People </a></li>
+                <li style="color: #00004a;"><a href="travel.html">Travel</a></li>
+                <li style="color: #00004a;"><a href="#"> Contact</a></li>
+                <li style="color: #00004a;"> <a href="registration.html">Registration </a> </li>
+               
+            </ul>
+        </div>
+            <div id="navbar-container2">
+            <!-- navbar container -->
+            <div class="dropdown">
+                <a href="index.html" style="text-decoration: none;"><button style="font-weight: lighter;  font-family: 'Open Sans', sans-serif;" class="dropbtn">Home</button></a>
+               
+              </div>
+        
+            <div class="dropdown">
+                <a href="quiz.html" style="text-decoration: none;"><button class="dropbtn" style="font-weight: lighter;">Quiz</button></a>
+                <div class="dropdown-content">
+                  <a href="quiz.html#quiz-div">Quiz and Eligibility</a> 
+                  <a href="quiz.html#agenda-name">Agenda</a>
+                  <a href="quiz.html#quiz-name">Quiz format </a>
+                  <a href="quiz.html#study-resources-div">Study resources </a>
+                </div>
+              </div>
+        
+              
+            <div class="dropdown">
+                <a href="social.html" style="text-decoration: none;"><button class="dropbtn" style="font-weight: lighter;">Social</button></a>
+                <div class="dropdown-content">
+                  <a href="social.html#kaf">Kafane </a>
+                  <a href="social.html#tmb">Teambuilding </a>
+                </div>
+              </div>
+        
+              <div class="dropdown">
+                <a href="people.html" style="text-decoration: none;"><button style="font-weight: lighter;" class="dropbtn">People</button></a>
+               
+              </div>
+           
+            <div class="dropdown">
+              <a href="travel.html" style="text-decoration: none;"><button style="font-weight: lighter;" class="dropbtn">Travel</button></a>
+              <div class="dropdown-content">
+                <a href="travel.html#text">Accommodations and venue </a>
+                <a href="travel.html#trans">Transportation and visa information </a>
+              </div>
+              </div>
+        
+              
+        
+              <div class="dropdown">
+                <a href="#" style="text-decoration: none;"><button id="current" style="font-weight: bolder;"  class="dropbtn">Contact</button></a>
+               
+              </div>
+              <div class="dropdown">
+                <a  href="registration.html"  style="text-decoration: none;" ><button style="font-weight: lighter; " id="reg" class="dropbtn"> Registration</button></a>
+                <div class="dropdown-content">
+                  <a href="registration.html#fees">Fees</a> 
+                  <a href="registration.html#payment">Payment</a>
+                  <a href="registration.html#registration">Register</a>
+                
+                </div>
+              </div>
+        </div>
+        
+    </div>
+
+
+
+<div id="contact-banner">
+    <img id="banner-img" src="/img/contact-tab2.png" alt="">
+</div>
+
+
+
+<div id="form-holder">
+    <div id="form-div">
+      <div class="container">
+        <form id="contact-form" method="POST" action="contact-form-handler.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="name" placeholder="Your name...">
+      
+          <label for="lname">E-mail</label>
+          <input type="text" id="mail" name="email" placeholder="Your email...">
+          <label for="subject">Message</label>
+          <textarea id="subject" name="message" placeholder="Write something..." style="height:200px"></textarea>
+      
+          <input type="submit" name="submit" value="Submit">
+      
+        </form>
+      </div>
+
+      <div id="contact-info-div">
+
+        <div id="map-holder">
+          <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1438.2765067285563!2d18.41366529950254!3d43.865092504119474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4758c8d5c93f4d5d%3A0xb5c20af3c2da5041!2s%C4%8Cekalu%C5%A1a%2090%2C%20Sarajevo%2071000!5e0!3m2!1shr!2sba!4v1601142830169!5m2!1shr!2sba" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div id="info">
+          <ul style="margin-top: 3%;">
+            <li>Balkan Physiology Competition</li>
+            <li>Medical Faculty, University of Sarajevo</li>
+            <li>Čekaluša 90, 71000 Sarajevo</li>
+            <li>Bosnia and Herzegovina</li>
+            <li><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7a13141c153a181b16111b140a12030954191517">[email&#160;protected]</a></li>
+          </ul>
+        </div>
+        
+        </div>
+    </div>
+</div>
+    </div>
+
+
+    <div id="footer">
+      <div id="logos-holder">
+        <img class="logo-footer" src="img/usmf-white.png" alt="">
+        <img class="logo-footer" src="img/bohemsa.png" alt="">
+      </div>
+      <div id="copy-holder">
+          <p>Copyright &copy; 2020 BPC</p>
+      </div>
+      <div id="designed-holder">
+          <p>Website designed by Amar Šegalo</p>
+      </div>
+        
+      </div>
+    
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script></body>
+</html>

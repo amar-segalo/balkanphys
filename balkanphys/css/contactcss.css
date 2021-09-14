@@ -1,0 +1,526 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#main-div
+{
+    display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+
+/* nav bar*/
+
+#logo
+{
+    width: 65%;
+    height: 100%;
+}
+
+#nav-div
+{
+   
+    display: flex;
+background-color:  #f5e0ce;
+}
+
+#logo-container
+{
+   
+    width:65%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.car-holder
+{
+    background-color: rgba(27, 27, 27, 0)
+}
+
+#logo-slika-con
+{
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  
+}
+
+#small-logo
+{
+    height: 40px;
+   
+    width: 100px;
+}
+#logo-slika-con a
+{
+    margin-left: 5%;
+   
+}
+
+#nav-div
+{ 
+    width: 100%;
+    display: flex;
+    height: 60px;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 1px solid rgba(0, 0, 74, 0.288);
+}
+
+#navbar-container
+{
+    display: none;
+
+}
+#navbar-container2
+{
+ 
+    width: 100%;
+   border-left: 1px solid rgba(0, 0, 74, 0.089);
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    
+}
+
+.button
+{
+    width: 80%;
+    height: 20px;
+    border-radius: 0px;
+   background-color: none;
+    color: black;
+    border: none;
+ 
+}
+#navbar-container li
+{
+    display: inline;
+    font-size:16px;
+    font-weight: bolder;
+    margin-left: 2%;
+    letter-spacing:2px;
+    margin-left: 6%;
+}
+#navbar-container li a:hover
+{
+   color: darkblue;
+}
+#navbar-container a
+{
+    text-decoration: none;
+    color: black;
+}
+#navbar-container ul
+{
+    position: relative;
+    padding-top: 4%;
+    display: flex;
+    justify-content: center;
+    float: right;
+  
+    width: 100%;
+}
+
+#icon
+{
+    width: 20%;
+   color: black;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.line
+{
+    width: 22px;
+  height: 3px;
+  background-color: black;
+  margin-top: 3px;
+  margin-right: 30%;
+  
+}
+#socials-div
+{
+    
+    display: flex;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-right: 4%;
+    
+}
+.socials-img
+{
+    height: 37%;
+    width: 20px;
+    margin-left: 5%;
+}
+#email
+{
+    height: 46%;
+    width: 20px;
+}
+
+
+
+/* dropdown */
+.dropbtn {
+    
+    color: #00004aff;
+    padding: 16px;
+    font-size: 13px;
+    
+    border: none;
+    width: 90%;
+    border-radius: 0px;
+   background-color: rgba(255, 0, 0, 0);
+    display: flex;
+    justify-content: center;
+    background-color: none;
+    align-items: center;
+   
+   
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    width: 14.1%;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.74);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    color: #00004aff;
+    font-size: 12px;
+  }
+  
+  .dropdown-content a {
+    color: #00004aff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {border: 1px solid black;}
+  #current
+  {
+      font-weight: bolder;
+  }
+/* */
+/*   */
+
+
+/* contact banner */
+#contact-banner
+{
+   /* width: 100%;
+    height: 420px;
+    background-color: red;*/
+    
+    width: 100%;
+ 
+    background-repeat: no-repeat;
+  
+}
+#banner-img
+{
+    width: 100%;
+    height: 100%;
+}
+
+#form-holder
+{
+   
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.contact-form
+{
+    display: flex;
+    flex-direction: column;
+
+}
+.container
+{
+    width: 60%;
+}
+#subject
+{
+    background-color: rgb(226, 225, 225);
+}
+#form-div
+{
+    display: flex;
+
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #00004aff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 60%;
+  }
+  
+  #mapa
+{
+    width:100%;
+     height: 100%;
+    
+}
+#map-holder
+{
+   
+    width: 80%;
+    height: 75%;
+}
+
+
+  /* contact info */
+  
+#contact-info-div
+{
+    margin-top: 2%;
+  align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+   
+    justify-content: center;
+}
+#info ul
+{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    text-align: left;
+   
+    width: 100%;
+    text-align: left;
+}
+#info
+{
+    width: 80%;
+}
+#info li
+{
+    font-size: 12px;
+ 
+}
+
+
+/*footer */
+
+#footer
+{
+    background-color: #010124;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#logos-holder
+{
+    
+    width: 30%;
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-footer
+{
+    width: 80px;
+    height: 80px;
+}
+#copy-holder
+{
+    margin-top: 0.5%;
+    height: 10px;
+    color:#f5e0ce;
+    font-size: 10px;
+}
+#designed-holder p
+{
+    font-size: 10px;
+    color:#f5e0ce;
+}
+
+#socials-div 
+{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+#socials-div a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    margin-right: 3%;
+}
+
+@media only screen and (max-width:1000px)
+{
+
+    #nav-div
+    {
+        display: flex;
+      
+       
+        flex-direction: column;
+    }
+    
+    #navbar-container
+    {
+       
+        width: 100%;
+     background-color: white;
+        height: 10%;
+       
+      display: none;
+    }
+    #navbar-container2
+    {
+    display: none;
+    }
+    
+    #navbar-container ul
+    {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    }
+    #navbar-container li
+    {
+    
+    margin-left: 0%;
+    margin-bottom: 1%;
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid rgb(184, 183, 183);
+    }
+    #icon
+    {
+    display: flex;
+    width: 16%;
+    flex-direction: column;
+    
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    
+    }
+    #logo-container
+    {
+        display: flex;
+        width: 100%;
+        height: 100%;
+       
+    }
+    #logo-slika-con
+    {
+        width: 90%;
+    }
+    #logo
+    {
+        width: 310px;
+        height: 280px;
+    }
+    #button-box
+{
+   
+    width: 45%;
+    font-size: 20px;
+}
+
+#form-div
+{
+  display: flex;
+  flex-direction: column;
+ 
+  width: 100%;
+}
+#form-holder
+{
+    width: 100%;
+}
+.container
+{
+    width: 100%;
+}
+#contact-info-div
+{
+    
+    width: 100%;
+    height: 500px
+}
+#mapa
+{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+}
+
